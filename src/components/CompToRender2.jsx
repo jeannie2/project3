@@ -8,7 +8,7 @@ function CompToRender2(data) {
   return (
     <section>
       <div id="CompToRender2" className="max-w-sm lg:max-w-4xl lg:flex mx-auto text-white translate-y-12">
-        <div className=" h-48 lg:h-auto lg:w-5/12 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden " title="photo">
+        <div className=" h-48 w-10/12 lg:h-auto lg:w-5/12 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden " title="photo">
           {data.data[0].images.length > 1 ? <ImageGallery data={data.data[0]} /> : <img className="w-full h-[400px] mt-5 mx-auto animate__animated animate__zoomIn" src={data.data[0].images[0].thumb} /> }
 
         </div>
