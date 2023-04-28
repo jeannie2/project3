@@ -10,8 +10,8 @@ export const handleErrors = (err) => {
   } else {
     console.log('ERROR: ', err) // eslint-disable-line
   }
-
-  /* switch (err.response.status) {
+}
+/* switch (err.response.status) {
     case 406: {
       err.response.data.errors.forEach((error) => {
         toast.error(error.msg)
