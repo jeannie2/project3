@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { toast } from 'react-toastify'
+// import { toast } from 'react-toastify'
 
 export const fetcher = (url) => axios.get(url).then((res) => res.data)
 
@@ -11,7 +11,7 @@ export const handleErrors = (err) => {
     console.log('ERROR: ', err) // eslint-disable-line
   }
 
-  switch (err.response.status) {
+  /* switch (err.response.status) {
     case 406: {
       err.response.data.errors.forEach((error) => {
         toast.error(error.msg)
@@ -22,4 +22,4 @@ export const handleErrors = (err) => {
       toast.error('Something is wrong with the server')
     }
   }
-}
+} */
