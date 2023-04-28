@@ -1,6 +1,6 @@
 # FBI Most Wanted
 
-Website using React and Express and data from external API for FSWDI project 3
+Website using React and data from external API for FSWDI project 3
 
 ## Technologies
 
